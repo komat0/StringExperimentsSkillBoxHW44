@@ -4,6 +4,7 @@ public class Loader {
 
 //        Alphabet.alphabetCodes();
 //        Salary.salaryCounter();
-    SeparateFIO.separateFIO();
+//        SeparateFIO.separateFIO();
+        WordToWord.wortToWord();
     }
 }
