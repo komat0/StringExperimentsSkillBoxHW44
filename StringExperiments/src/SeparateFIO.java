@@ -25,4 +25,17 @@ public class SeparateFIO {
         System.out.println("Имя: " + firstName);
         System.out.println("Отчество: " + fatherName);
     }
+
+    // Метод делает разбитие строки на ФИО используя регулярные выражения
+    // для разделения строки и добавляя в массив субстроки.
+    public static void separateFIORegex() {
+        System.out.println("Введите Фамилию Имя и Отчество через пробел.");
+        Scanner scan = new Scanner(System.in);
+        String fio = scan.nextLine();
+
+        String[] devidedFIO =  fio.split("\\s+");
+        System.out.println("Фамилия: " + devidedFIO[0]);
+        System.out.println("Имя: " + devidedFIO[1]);
+        System.out.println("Отчество: " + devidedFIO[2]);
+    }
 }

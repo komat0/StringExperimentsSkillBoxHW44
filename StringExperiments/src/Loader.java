@@ -5,6 +5,8 @@ public class Loader {
 //        Alphabet.alphabetCodes();
 //        Salary.salaryCounter();
 //        SeparateFIO.separateFIO();
-        WordToWord.wortToWord();
+//        WordToWord.wortToWord();
+//        SeparateFIO.separateFIORegex();
+        Phones.phoneFormat();
     }
 }
