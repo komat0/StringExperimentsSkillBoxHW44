@@ -2,8 +2,10 @@ public class WordToWord {
 
     public static void wortToWord() {
 
-        String gettingText = "Дорогие,      блин, гости. Здравствуйте!   Однако, не каждый " +
-                "знает: где сидит физ-ра, а где культура и 222  почему пуля - дура, а штык - нет;";
+        String gettingText = "Дорогие, блин, гости. Здравствуйте! Однако, не каждый " +
+                "знает: где сидит физ-ра, а где культура и почему " +
+                "пуля   - дура, а штык - нет; 222    --  ООО 'Ромашка' " +
+                "Nemnogo ^ teksta : NA ANGLIYSKOM";
         String space = " ";
         String textOnly = gettingText.replaceAll("[^\\p{L}\\p{N}-\\s]|\\s+-\\s+", "")
                 .replaceAll("\\s+", " ").trim();
