@@ -7,6 +7,7 @@ public class Loader {
 //        SeparateFIO.separateFIO();
 //        WordToWord.wortToWord();
 //        SeparateFIO.separateFIORegex();
-        Phones.phoneFormat();
+//        Phones.phoneFormat();
+        BirthDayCalendar.birthDay();
     }
 }
